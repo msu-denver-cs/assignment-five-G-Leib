@@ -8,11 +8,11 @@
     <button onclick="fetch('parts', ['name', 'quantity'])">Parts</button>
     <button onclick="fetch('makes', ['name', 'country'])">Makes</button>
     
-    <div id="list">
+    <div id="table">
     </div>
     
     <script>
-    var l = document.getElementById("list");
+    var l = document.getElementById("table");
     var clear = function() {
         while (l.firstChild) {
             l.removeChild(l.firstChild);
@@ -25,13 +25,21 @@
             let done = 4, ok = 200;
             if (http_request.readyState === done && http_request.status === ok) {
                 clear();
-                let ol = document.createElement('ol');
+                let ol = document.createElement('table');
                 l.appendChild(ol);
                 let jo = JSON.parse(http_request.responseText);
+                // let header = document.createElement('tr');
+                // for (label in fields) {
+                //     let colTitle = createElement('th');
+                //     header.appendChild(colTitle);
+                //     colTitle.textContent = "ok";
+                // }
                 for (i in jo) {
-                    let li = document.createElement('li');
+                    let li = document.createElement('tr');
                     for (f in fields) {
-                        li.textContent += jo[i][fields[f]] + ' ';
+                        let td = document.createElement('td');
+                        li.appendChild(td);
+                        td.textContent += jo[i][fields[f]];
                     }
                     ol.appendChild(li);
                 }
