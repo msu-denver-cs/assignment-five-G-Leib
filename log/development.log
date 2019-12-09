@@ -12653,3 +12653,1656 @@ Processing by MakesController#index as HTML
 Completed 200 OK in 214ms (Views: 210.1ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:05:14 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 409ms (Views: 385.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:21:19 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 145.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:22:20 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 155ms (Views: 151.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:22:47 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 154ms (Views: 149.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:32:14 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 164ms (Views: 160.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:34:03 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 157ms (Views: 153.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cars/json" for 127.0.0.1 at 2019-12-08 21:35:08 -0700
+Processing by CarsController#show as HTML
+  Parameters: {"id"=>"json"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT  "cars".* FROM "cars" WHERE "cars"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/cars_controller.rb:78
+Completed 404 Not Found in 6ms (ActiveRecord: 1.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Car with 'id'=json):
+  
+app/controllers/cars_controller.rb:78:in `set_car'
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:36:26 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 170ms (Views: 165.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:37:15 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 152ms (Views: 148.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:38:00 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 163ms (Views: 158.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:43:27 -0700
+  
+ActionController::RoutingError (uninitialized constant PublicController):
+  
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:46:50 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:50:19 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:50:46 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 176ms (Views: 163.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:51:29 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 155ms (Views: 152.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:53:50 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 178ms (Views: 175.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 21:59:39 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 153ms (Views: 151.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:02:53 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 153.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:02:56 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (42.4ms)
+  Rendered cars/index.json.jbuilder (50.6ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 2.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `part_name' for #<Part:0x00007f0231e177d0>):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: json.make Make.find_by_id(car.make.id).name
+    3: json.parts car.parts.map { |part| part.part_name }
+    4: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:3:in `block in _app_views_cars__car_json_jbuilder___153648100287296954_69823703180180'
+app/views/cars/_car.json.jbuilder:3:in `map'
+app/views/cars/_car.json.jbuilder:3:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823703180180'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823703604320'
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:02:57 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.8ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (6.2ms)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:02:59 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (13.7ms)
+  Rendered cars/index.json.jbuilder (15.1ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `part_name' for #<Part:0x00007f0230f2e5e8>):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: json.make Make.find_by_id(car.make.id).name
+    3: json.parts car.parts.map { |part| part.part_name }
+    4: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:3:in `block in _app_views_cars__car_json_jbuilder___153648100287296954_69823694724360'
+app/views/cars/_car.json.jbuilder:3:in `map'
+app/views/cars/_car.json.jbuilder:3:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823694724360'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823695729220'
+Started GET "/cars" for 127.0.0.1 at 2019-12-08 22:03:01 -0700
+Processing by CarsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:24
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 2]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 3]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 4]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 5]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 6]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 7]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 8]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 9]]
+  ↳ app/views/cars/index.html.erb:29
+  Rendered cars/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 175ms (Views: 170.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:03:08 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.5ms)
+Completed 200 OK in 189ms (Views: 185.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:03:10 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (19.7ms)
+  Rendered cars/index.json.jbuilder (22.4ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `part_name' for #<Part:0x00007f02318e9d30>):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: json.make Make.find_by_id(car.make.id).name
+    3: json.parts car.parts.map { |part| part.part_name }
+    4: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:3:in `block in _app_views_cars__car_json_jbuilder___153648100287296954_69823698809260'
+app/views/cars/_car.json.jbuilder:3:in `map'
+app/views/cars/_car.json.jbuilder:3:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823698809260'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823698503640'
+Started GET "/parts" for 127.0.0.1 at 2019-12-08 22:03:14 -0700
+Processing by PartsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.html.erb within layouts/application
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.html.erb:19
+  Rendered parts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 162ms (Views: 157.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:03:18 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 146ms (Views: 143.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:03:20 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.5ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (4.9ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2019-12-08 22:03:25 -0700
+Processing by CarsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:24
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 2]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mMake Load (0.2ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 3]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 4]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 5]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 6]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 7]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 8]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 9]]
+  ↳ app/views/cars/index.html.erb:29
+  Rendered cars/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 182ms (Views: 176.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:04:22 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 145ms (Views: 141.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:04:23 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 154ms (Views: 151.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:04:24 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (258.3ms)
+  Rendered cars/index.json.jbuilder (260.9ms)
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02320015a0>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823702956400'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823702766040'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:04:26 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (239.1ms)
+  Rendered cars/index.json.jbuilder (241.3ms)
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02321c1638>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823703617980'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823703683420'
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:04:27 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.6ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/index.json.jbuilder (6.9ms)
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:04:28 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (242.9ms)
+  Rendered cars/index.json.jbuilder (244.8ms)
+Completed 500 Internal Server Error in 253ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f0231901390>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823698975460'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823699095140'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:05:29 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (266.4ms)
+  Rendered cars/index.json.jbuilder (268.6ms)
+Completed 500 Internal Server Error in 279ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02312946d8>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823696258480'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823695729400'
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:05:30 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.6ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (5.2ms)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:07:09 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 147ms (Views: 143.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:07:12 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (223.9ms)
+  Rendered cars/index.json.jbuilder (225.6ms)
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f023192fce0>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823699074220'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823699198980'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:07:13 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (238.2ms)
+  Rendered cars/index.json.jbuilder (240.5ms)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02320fd620>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823703387960'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823703281700'
+Started GET "/makes" for 127.0.0.1 at 2019-12-08 22:07:15 -0700
+Processing by MakesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.html.erb within layouts/application
+  [1m[36mMake Load (0.3ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.html.erb:19
+  Rendered makes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 161ms (Views: 158.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:07:16 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (215.3ms)
+  Rendered cars/index.json.jbuilder (217.0ms)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02325e07c8>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823705680700'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823705844140'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:07:17 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (263.1ms)
+  Rendered cars/index.json.jbuilder (265.3ms)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f0231935ed8>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823699475700'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823699204260'
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:07:18 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.7ms)
+Completed 200 OK in 162ms (Views: 159.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:08:23 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 174ms (Views: 170.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:08:26 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (227.0ms)
+  Rendered cars/index.json.jbuilder (229.2ms)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f0231d8bfa0>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823701443480'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823701476700'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:08:28 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (227.2ms)
+  Rendered cars/index.json.jbuilder (229.2ms)
+Completed 500 Internal Server Error in 239ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02326f1568>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823705900380'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823706402720'
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:08:49 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 161ms (Views: 158.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:08:52 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (220.2ms)
+  Rendered cars/index.json.jbuilder (222.1ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f0232292788>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823704044260'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823704111180'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:08:54 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (223.5ms)
+  Rendered cars/index.json.jbuilder (225.4ms)
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f023056d0b8>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823688415540'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823688832820'
+Started GET "/makes" for 127.0.0.1 at 2019-12-08 22:08:55 -0700
+Processing by MakesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.html.erb within layouts/application
+  [1m[36mMake Load (0.3ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.html.erb:19
+  Rendered makes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 168ms (Views: 163.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/makes" for 127.0.0.1 at 2019-12-08 22:09:27 -0700
+Processing by MakesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.html.erb within layouts/application
+  [1m[36mMake Load (0.2ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.html.erb:19
+  Rendered makes/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 186ms (Views: 182.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:09:29 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.5ms)
+Completed 200 OK in 160ms (Views: 158.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:09:31 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (219.4ms)
+  Rendered cars/index.json.jbuilder (221.7ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02324f2078>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823705229940'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823705356200'
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:09:32 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.7ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (5.8ms)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:11:39 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 159ms (Views: 157.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/makes.json" for 127.0.0.1 at 2019-12-08 22:11:41 -0700
+Processing by MakesController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.json.jbuilder
+  [1m[36mMake Load (0.3ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.json.jbuilder:1
+  Rendered makes/_make.json.jbuilder (0.9ms)
+  Rendered makes/_make.json.jbuilder (0.3ms)
+  Rendered makes/_make.json.jbuilder (0.2ms)
+  Rendered makes/index.json.jbuilder (5.8ms)
+Completed 200 OK in 14ms (Views: 9.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:11:43 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (5.7ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/index.json.jbuilder (12.1ms)
+Completed 200 OK in 22ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:11:45 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (252.0ms)
+  Rendered cars/index.json.jbuilder (253.7ms)
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f02325b9c18>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823705358120'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823705766060'
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:12:38 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 162ms (Views: 159.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:12:40 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (242.6ms)
+  Rendered cars/index.json.jbuilder (245.4ms)
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f023159d398>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823697060340'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823697319680'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:12:41 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (250.3ms)
+  Rendered cars/index.json.jbuilder (251.7ms)
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f023177e360>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823698022200'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823698323380'
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:13:36 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 159ms (Views: 156.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:13:38 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (238.0ms)
+  Rendered cars/index.json.jbuilder (240.2ms)
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x00007f0231da1080>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823701484960'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823701519680'
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:13:40 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.6ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (1.0ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.6ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.5ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (18.6ms)
+Completed 200 OK in 28ms (Views: 21.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:13:58 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 156ms (Views: 153.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:14:00 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.8ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (6.2ms)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/makes.json" for 127.0.0.1 at 2019-12-08 22:14:01 -0700
+Processing by MakesController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.json.jbuilder
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.json.jbuilder:1
+  Rendered makes/_make.json.jbuilder (0.7ms)
+  Rendered makes/_make.json.jbuilder (0.3ms)
+  Rendered makes/_make.json.jbuilder (0.3ms)
+  Rendered makes/index.json.jbuilder (4.6ms)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:14:02 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.6ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (5.4ms)
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:14:03 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  Rendered cars/_car.json.jbuilder (235.1ms)
+  Rendered cars/index.json.jbuilder (236.8ms)
+Completed 500 Internal Server Error in 243ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jason' for #<#<Class:0x00007f023219afb0>:0x0000559bac08ad98>
+Did you mean?  json
+               JSON):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: jason.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:2:in `_app_views_cars__car_json_jbuilder___153648100287296954_47063540461180'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_47063547331620'
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:14:42 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 211ms (Views: 208.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:14:44 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.3ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.9ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/index.json.jbuilder (8.5ms)
+Completed 200 OK in 19ms (Views: 12.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/makes.json" for 127.0.0.1 at 2019-12-08 22:14:45 -0700
+Processing by MakesController#index as JSON
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.json.jbuilder
+  [1m[36mMake Load (0.2ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.json.jbuilder:1
+  Rendered makes/_make.json.jbuilder (0.7ms)
+  Rendered makes/_make.json.jbuilder (0.2ms)
+  Rendered makes/_make.json.jbuilder (0.2ms)
+  Rendered makes/index.json.jbuilder (4.0ms)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:14:47 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.9ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/index.json.jbuilder (7.9ms)
+Completed 200 OK in 17ms (Views: 11.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:14:56 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.6ms)
+Completed 200 OK in 151ms (Views: 147.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:14:58 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.6ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (6.0ms)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/makes.json" for 127.0.0.1 at 2019-12-08 22:15:00 -0700
+Processing by MakesController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.json.jbuilder
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.json.jbuilder:1
+  Rendered makes/_make.json.jbuilder (0.6ms)
+  Rendered makes/_make.json.jbuilder (0.2ms)
+  Rendered makes/_make.json.jbuilder (0.2ms)
+  Rendered makes/index.json.jbuilder (3.7ms)
+Completed 200 OK in 14ms (Views: 9.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:15:02 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (0.7ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/_part.json.jbuilder (0.5ms)
+  Rendered parts/_part.json.jbuilder (0.4ms)
+  Rendered parts/_part.json.jbuilder (0.3ms)
+  Rendered parts/index.json.jbuilder (8.3ms)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:15:30 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.4ms)
+Completed 200 OK in 164ms (Views: 160.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:15:33 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:4
+  Rendered cars/_car.json.jbuilder (11.1ms)
+  Rendered cars/index.json.jbuilder (13.1ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `part_name' for #<Part:0x00007f0231d9fcf8>):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: json.name car.name
+    3: json.make Make.find_by_id(car.make.id).name
+    4: json.parts car.parts.map { |part| part.part_name }
+    5: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:4:in `block in _app_views_cars__car_json_jbuilder___153648100287296954_69823701564580'
+app/views/cars/_car.json.jbuilder:4:in `map'
+app/views/cars/_car.json.jbuilder:4:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823701564580'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823701606240'
+Started GET "/parts.json" for 127.0.0.1 at 2019-12-08 22:15:34 -0700
+Processing by PartsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering parts/index.json.jbuilder
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts"[0m
+  ↳ app/views/parts/index.json.jbuilder:1
+  Rendered parts/_part.json.jbuilder (1.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/_part.json.jbuilder (0.2ms)
+  Rendered parts/index.json.jbuilder (7.7ms)
+Completed 200 OK in 15ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/makes.json" for 127.0.0.1 at 2019-12-08 22:15:35 -0700
+Processing by MakesController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering makes/index.json.jbuilder
+  [1m[36mMake Load (0.2ms)[0m  [1m[34mSELECT "makes".* FROM "makes"[0m
+  ↳ app/views/makes/index.json.jbuilder:1
+  Rendered makes/_make.json.jbuilder (0.6ms)
+  Rendered makes/_make.json.jbuilder (0.2ms)
+  Rendered makes/_make.json.jbuilder (0.2ms)
+  Rendered makes/index.json.jbuilder (6.0ms)
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:18:04 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (12.3ms)
+  Rendered cars/index.json.jbuilder (14.2ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `part_name' for #<Part:0x00007f023257ca48>):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: json.make Make.find_by_id(car.make.id).name
+    3: json.parts car.parts.map { |part| part.part_name }
+    4: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:3:in `block in _app_views_cars__car_json_jbuilder___153648100287296954_69823705970260'
+app/views/cars/_car.json.jbuilder:3:in `map'
+app/views/cars/_car.json.jbuilder:3:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823705970260'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823706195580'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:18:08 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (16.3ms)
+  Rendered cars/index.json.jbuilder (18.6ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `part_name' for #<Part:0x00007f0231d8f970>):
+    1: json.extract! car, :id, :name, :vin, :make_id, :created_at, :updated_at
+    2: json.make Make.find_by_id(car.make.id).name
+    3: json.parts car.parts.map { |part| part.part_name }
+    4: json.url car_url(car, format: :json)
+  
+app/views/cars/_car.json.jbuilder:3:in `block in _app_views_cars__car_json_jbuilder___153648100287296954_69823701545440'
+app/views/cars/_car.json.jbuilder:3:in `map'
+app/views/cars/_car.json.jbuilder:3:in `_app_views_cars__car_json_jbuilder___153648100287296954_69823701545440'
+app/views/cars/index.json.jbuilder:1:in `_app_views_cars_index_json_jbuilder___3424549152709275038_69823701585620'
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:18:43 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.3ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (3.3ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 2]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.0ms)
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 3]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.3ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 4]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (4.6ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 5]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.2ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 6]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.5ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 7]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.9ms)
+  [1m[36mCACHE Make Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 8]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (3.1ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 9]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (3.4ms)
+  Rendered cars/index.json.jbuilder (32.8ms)
+Completed 200 OK in 41ms (Views: 35.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:18:48 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.3ms)
+Completed 200 OK in 159ms (Views: 157.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/cars.json" for 127.0.0.1 at 2019-12-08 22:18:50 -0700
+Processing by CarsController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.json.jbuilder
+  [1m[36mCar Load (0.1ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.json.jbuilder:1
+  [1m[36mMake Load (0.2ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (10.6ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 2]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (4.0ms)
+  [1m[36mMake Load (0.2ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 3]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (3.6ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 4]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (3.1ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 5]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.7ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 6]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.1ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 7]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (3.7ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 8]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (3.3ms)
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/_car.json.jbuilder:2
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 9]]
+  ↳ app/views/cars/_car.json.jbuilder:3
+  Rendered cars/_car.json.jbuilder (2.3ms)
+  Rendered cars/index.json.jbuilder (42.1ms)
+Completed 200 OK in 49ms (Views: 43.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/cars" for 127.0.0.1 at 2019-12-08 22:18:59 -0700
+Processing by CarsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering cars/index.html.erb within layouts/application
+  [1m[36mCar Load (0.2ms)[0m  [1m[34mSELECT "cars".* FROM "cars"[0m
+  ↳ app/views/cars/index.html.erb:24
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 1]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 2]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mMake Load (0.1ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 3]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 4]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 5]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 6]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.1ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 7]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 8]]
+  ↳ app/views/cars/index.html.erb:29
+  [1m[36mCACHE Make Load (0.0ms)[0m  [1m[34mSELECT  "makes".* FROM "makes" WHERE "makes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/cars/index.html.erb:28
+  [1m[36mPart Load (0.2ms)[0m  [1m[34mSELECT "parts".* FROM "parts" INNER JOIN "cars_parts" ON "parts"."id" = "cars_parts"."part_id" WHERE "cars_parts"."car_id" = ?[0m  [["car_id", 9]]
+  ↳ app/views/cars/index.html.erb:29
+  Rendered cars/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 186ms (Views: 179.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-08 22:19:08 -0700
+Processing by StaticPagesController#home.html as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/gil/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering static_pages/home.html within layouts/application
+  Rendered static_pages/home.html within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 145.6ms | ActiveRecord: 0.2ms)
+
+
